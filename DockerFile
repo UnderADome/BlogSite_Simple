@@ -1,0 +1,3 @@
+FROM java:8
+ADD target/*.jar BlogSite.jar
+ENTRYPOINT ["java","-jar","/BlogSite.jar"]
